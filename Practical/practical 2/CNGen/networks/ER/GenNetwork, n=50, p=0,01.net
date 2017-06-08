@@ -1,0 +1,65 @@
+*vertices 50
+1 1 0.0 0.0 ellipse
+2 2 0.0 0.0 ellipse
+3 3 0.0 0.0 ellipse
+4 4 0.0 0.0 ellipse
+5 5 0.0 0.0 ellipse
+6 6 0.0 0.0 ellipse
+7 7 0.0 0.0 ellipse
+8 8 0.0 0.0 ellipse
+9 9 0.0 0.0 ellipse
+10 10 0.0 0.0 ellipse
+11 11 0.0 0.0 ellipse
+12 12 0.0 0.0 ellipse
+13 13 0.0 0.0 ellipse
+14 14 0.0 0.0 ellipse
+15 15 0.0 0.0 ellipse
+16 16 0.0 0.0 ellipse
+17 17 0.0 0.0 ellipse
+18 18 0.0 0.0 ellipse
+19 19 0.0 0.0 ellipse
+20 20 0.0 0.0 ellipse
+21 21 0.0 0.0 ellipse
+22 22 0.0 0.0 ellipse
+23 23 0.0 0.0 ellipse
+24 24 0.0 0.0 ellipse
+25 25 0.0 0.0 ellipse
+26 26 0.0 0.0 ellipse
+27 27 0.0 0.0 ellipse
+28 28 0.0 0.0 ellipse
+29 29 0.0 0.0 ellipse
+30 30 0.0 0.0 ellipse
+31 31 0.0 0.0 ellipse
+32 32 0.0 0.0 ellipse
+33 33 0.0 0.0 ellipse
+34 34 0.0 0.0 ellipse
+35 35 0.0 0.0 ellipse
+36 36 0.0 0.0 ellipse
+37 37 0.0 0.0 ellipse
+38 38 0.0 0.0 ellipse
+39 39 0.0 0.0 ellipse
+40 40 0.0 0.0 ellipse
+41 41 0.0 0.0 ellipse
+42 42 0.0 0.0 ellipse
+43 43 0.0 0.0 ellipse
+44 44 0.0 0.0 ellipse
+45 45 0.0 0.0 ellipse
+46 46 0.0 0.0 ellipse
+47 47 0.0 0.0 ellipse
+48 48 0.0 0.0 ellipse
+49 49 0.0 0.0 ellipse
+50 50 0.0 0.0 ellipse
+*edges
+1 17 1.0
+4 30 1.0
+6 38 1.0
+7 13 1.0
+8 35 1.0
+14 14 1.0
+20 26 1.0
+24 38 1.0
+26 45 1.0
+27 36 1.0
+33 35 1.0
+33 46 1.0
+42 44 1.0

@@ -1,0 +1,34 @@
+Partition1: A3_nets/real/dolphins-real.clu
+Partition2: A3_nets/real/comm_detection/dolphins_label_prop.clu
+
+Number of Lists(1) : 2
+Number of Lists(2) : 4
+
+Same Class Agreements : 518
+Agreements            : 1298
+Disagreements(1)      : 533
+Disagreements(2)      : 60
+Disagreements         : 593
+Pairs                 : 1891
+
+Jaccard Index         : 0.4662
+Rand Index            : 0.6864
+Adjusted Rand Index   : 0.3989
+Fowlkes Mallows Index : 0.6646
+Normalized Mutual Information Index (maximum)    : 0.3943
+Normalized Mutual Information Index (arithmetic) : 0.5219
+Normalized Mutual Information Index (geometric)  : 0.5516
+Normalized Mutual Information Index (minimum)    : 0.7716
+Asymmetric Wallace Index(1) : 0.4929
+Asymmetric Wallace Index(2) : 0.8962
+
+Mirkin Metric                   : 1186.0000
+Van Dongen Metric               : 22.0000
+Variation Of Information Metric : 1.2824
+Normalized Mirkin Metric                   : 0.3136
+Normalized Van Dongen Metric               : 0.1774
+Normalized Variation Of Information Metric : 0.2154
+
+Contingency table (Partition1 x Partition2):
+4	3	23	12
+0	20	0	0

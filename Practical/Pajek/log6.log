@@ -1,0 +1,23 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\airports_UW.net
+N 1 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\airports_UW.net" (3618)
+% Reading Partition   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_louvain.clu
+C 1 RDC "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_louvain.clu" (3618)
+E 1 DRAW 1 0 0 0 0
+E 1 DRAW 1 0 0 0 0
+% Reading Partition   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_betweenness.clu
+C 2 RDC "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_betweenness.clu" (3618)
+E 1 DRAW 2 0 0 0 0
+% Reading Partition   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_label_prop.clu
+C 3 RDC "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_label_prop.clu" (3618)
+E 1 DRAW 3 0 0 0 0
+% Reading Partition   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_walktrap.clu
+C 4 RDC "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\comm_detection\airports_UW_walktrap.clu" (3618)
+E 1 DRAW 4 0 0 0 0
+E 1 JPEG 4 0 0 0 0 "C:\Users\jorge\Desktop\airports_walktrap.jpg" 100 0

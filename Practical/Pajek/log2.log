@@ -1,0 +1,37 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\ER\GenNetwork, n=50, p=0,02.net
+N 1 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\ER\GenNetwork, n=50, p=0,02.net" (50)
+E 1 CIRCULAR
+E 1 DRAW 0 0 0 0 0
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\ER\GenNetwork, n=50, p=0,05.net
+N 2 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\ER\GenNetwork, n=50, p=0,05.net" (50)
+E 2 CIRCULAR
+E 2 DRAW 0 0 0 0 0
+E 2 JPEG 0 0 0 0 0 "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\plots\ERn=50,p005.jpg" 100 0
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\WS\GenNetwork, n=50 k=4 p=0,5.net
+N 3 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\WS\GenNetwork, n=50 k=4 p=0,5.net" (50)
+E 3 CIRCULAR
+E 3 DRAW 0 0 0 0 0
+E 3 ROT3D 0.577 0.577 0.577 360 2.000
+E 3 JPEG 0 0 0 0 0 "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\plots\WSn=50,p05.jpg" 100 0
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\BA\GenNetwork, n=100 k=2.net
+N 4 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\BA\GenNetwork, n=100 k=2.net" (100)
+E 4 CIRCULAR
+E 4 DRAW 0 0 0 0 0
+E 4 JPEG 0 0 0 0 0 "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\plots\BAn=100k2.jpg" 100 0
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetPoisson, n=100 landa=4.net
+N 5 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetPoisson, n=100 landa=4.net" (96)
+E 5 CIRCULAR
+E 5 DRAW 0 0 0 0 0
+E 5 JPEG 0 0 0 0 0 "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\plots\CMpoissn100l4.jpg" 100 0
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetwork, n=100 PL gamma=2,5.net
+N 6 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetwork, n=100 PL gamma=2,5.net" (100)
+E 6 CIRCULAR
+E 6 DRAW 0 0 0 0 0
+E 6 JPEG 0 0 0 0 0 "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\plots\CMpl100g25.jpg" 100 0

@@ -1,0 +1,15 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\dolphins.net
+N 1 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\dolphins.net" (62)
+% Reading Partition   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\dolphins-real.clu
+C 1 RDC "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\Practical 3\A3_nets\real\dolphins-real.clu" (62)
+E 1 CIRCULAR
+E 1 DRAW 0 0 0 0 0
+E 1 DRAW 1 0 0 0 0
+E 1 DRAW 1 0 0 0 0

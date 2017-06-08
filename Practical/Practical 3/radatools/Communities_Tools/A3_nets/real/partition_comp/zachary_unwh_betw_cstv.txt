@@ -1,0 +1,34 @@
+Partition1: A3_nets/real/zachary_unwh-real.clu
+Partition2: A3_nets/real/comm_detection/zachary_unwh_betweenness.clu
+
+Number of Lists(1) : 2
+Number of Lists(2) : 5
+
+Same Class Agreements : 131
+Agreements            : 414
+Disagreements(1)      : 142
+Disagreements(2)      : 5
+Disagreements         : 147
+Pairs                 : 561
+
+Jaccard Index         : 0.4712
+Rand Index            : 0.7380
+Adjusted Rand Index   : 0.4686
+Fowlkes Mallows Index : 0.6799
+Normalized Mutual Information Index (maximum)    : 0.4312
+Normalized Mutual Information Index (arithmetic) : 0.5798
+Normalized Mutual Information Index (geometric)  : 0.6177
+Normalized Mutual Information Index (minimum)    : 0.8850
+Asymmetric Wallace Index(1) : 0.4799
+Asymmetric Wallace Index(2) : 0.9632
+
+Mirkin Metric                   : 294.0000
+Van Dongen Metric               : 13.0000
+Variation Of Information Metric : 1.2794
+Normalized Mirkin Metric                   : 0.2620
+Normalized Van Dongen Metric               : 0.1912
+Normalized Variation Of Information Metric : 0.2515
+
+Contingency table (Partition1 x Partition2):
+10	1	5	0	0
+0	5	0	12	1

@@ -1,0 +1,36 @@
+Partition1: A3_nets/model/256_4_4_4_13_18_p.clu
+Partition2: A3_nets/model/comm_detection/256_4_4_4_13_18_p_label_prop.clu
+
+Number of Lists(1) : 4
+Number of Lists(2) : 15
+
+Same Class Agreements : 2176
+Agreements            : 26752
+Disagreements(1)      : 5888
+Disagreements(2)      : 0       (Partition2 inside Partition1)
+Disagreements         : 5888
+Pairs                 : 32640
+
+Jaccard Index         : 0.2698
+Rand Index            : 0.8196
+Adjusted Rand Index   : 0.3575
+Fowlkes Mallows Index : 0.5195
+Normalized Mutual Information Index (maximum)    : 0.5161
+Normalized Mutual Information Index (arithmetic) : 0.6809
+Normalized Mutual Information Index (geometric)  : 0.7184
+Normalized Mutual Information Index (minimum)    : 1.0000
+Asymmetric Wallace Index(1) : 0.2698
+Asymmetric Wallace Index(2) : 1.0000       (Partition2 inside Partition1)
+
+Mirkin Metric                   : 11776.0000
+Van Dongen Metric               : 176.0000
+Variation Of Information Metric : 1.8750
+Normalized Mirkin Metric                   : 0.1804
+Normalized Van Dongen Metric               : 0.3438
+Normalized Variation Of Information Metric : 0.2344
+
+Contingency table (Partition1 x Partition2):
+16	16	16	16	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	16	16	16	16	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	32	16	16	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	16	16	16	16

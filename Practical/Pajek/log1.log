@@ -1,0 +1,11 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Reading Network   ---    C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetPoisson, n=50 landa=4.net
+N 1 RDN "C:\Users\jorge\Desktop\MAI\2nd sem\CN\Practical\practical 2\CNGen\networks\CM\GenNetPoisson, n=50 landa=4.net" (48)
+E 1 CIRCULAR
+E 1 DRAW 0 0 0 0 0

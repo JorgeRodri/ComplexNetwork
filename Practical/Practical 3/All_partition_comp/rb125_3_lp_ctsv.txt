@@ -1,0 +1,58 @@
+Partition1: A3_nets/model/rb125-3.clu
+Partition2: A3_nets/model/comm_detection/rb125_label_prop.clu
+
+Number of Lists(1) : 26
+Number of Lists(2) : 18
+
+Same Class Agreements : 246
+Agreements            : 7295
+Disagreements(1)      : 0       (Partition1 inside Partition2)
+Disagreements(2)      : 455
+Disagreements         : 455
+Pairs                 : 7750
+
+Jaccard Index         : 0.3509
+Rand Index            : 0.9413
+Adjusted Rand Index   : 0.4958
+Fowlkes Mallows Index : 0.5924
+Normalized Mutual Information Index (maximum)    : 0.8221
+Normalized Mutual Information Index (arithmetic) : 0.9024
+Normalized Mutual Information Index (geometric)  : 0.9067
+Normalized Mutual Information Index (minimum)    : 1.0000
+Asymmetric Wallace Index(1) : 1.0000       (Partition1 inside Partition2)
+Asymmetric Wallace Index(2) : 0.3509
+
+Mirkin Metric                   : 910.0000
+Van Dongen Metric               : 36.0000
+Variation Of Information Metric : 0.8314
+Normalized Mirkin Metric                   : 0.0587
+Normalized Van Dongen Metric               : 0.1440
+Normalized Variation Of Information Metric : 0.1194
+
+Contingency table (Partition1 x Partition2):
+1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5

@@ -1,0 +1,57 @@
+Partition1: A3_nets/model/rb125-2.clu
+Partition2: A3_nets/model/comm_detection/rb125_betweenness.clu
+
+Number of Lists(1) : 25
+Number of Lists(2) : 13
+
+Same Class Agreements : 246
+Agreements            : 7096
+Disagreements(1)      : 4
+Disagreements(2)      : 650
+Disagreements         : 654
+Pairs                 : 7750
+
+Jaccard Index         : 0.2733
+Rand Index            : 0.9156
+Adjusted Rand Index   : 0.3990
+Fowlkes Mallows Index : 0.5198
+Normalized Mutual Information Index (maximum)    : 0.7107
+Normalized Mutual Information Index (arithmetic) : 0.8279
+Normalized Mutual Information Index (geometric)  : 0.8394
+Normalized Mutual Information Index (minimum)    : 0.9913
+Asymmetric Wallace Index(1) : 0.9840
+Asymmetric Wallace Index(2) : 0.2746
+
+Mirkin Metric                   : 1308.0000
+Van Dongen Metric               : 62.0000
+Variation Of Information Metric : 1.3724
+Normalized Mirkin Metric                   : 0.0844
+Normalized Van Dongen Metric               : 0.2480
+Normalized Variation Of Information Metric : 0.1970
+
+Contingency table (Partition1 x Partition2):
+1	4	0	0	0	0	0	0	0	0	0	0	0
+0	0	5	0	0	0	0	0	0	0	0	0	0
+0	0	0	5	0	0	0	0	0	0	0	0	0
+0	0	0	0	5	0	0	0	0	0	0	0	0
+0	0	0	0	0	5	0	0	0	0	0	0	0
+0	0	0	0	0	0	5	0	0	0	0	0	0
+0	0	0	0	0	0	0	5	0	0	0	0	0
+0	0	0	0	0	0	0	0	5	0	0	0	0
+0	0	0	0	0	0	5	0	0	0	0	0	0
+0	0	0	0	0	0	5	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	0	5	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	5	0
+0	0	0	0	0	0	0	0	0	0	0	0	5
+0	0	0	0	0	0	0	0	0	0	0	5	0
+0	0	0	0	0	0	0	0	0	0	0	5	0
+0	0	0	0	0	0	0	0	0	0	0	5	0

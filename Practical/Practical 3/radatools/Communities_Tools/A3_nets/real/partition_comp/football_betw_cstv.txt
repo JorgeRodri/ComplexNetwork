@@ -1,0 +1,44 @@
+Partition1: A3_nets/real/football-conferences.clu
+Partition2: A3_nets/real/comm_detection/football_betweenness.clu
+
+Number of Lists(1) : 12
+Number of Lists(2) : 10
+
+Same Class Agreements : 476
+Agreements            : 6314
+Disagreements(1)      : 47
+Disagreements(2)      : 194
+Disagreements         : 241
+Pairs                 : 6555
+
+Jaccard Index         : 0.6639
+Rand Index            : 0.9632
+Adjusted Rand Index   : 0.7781
+Fowlkes Mallows Index : 0.8041
+Normalized Mutual Information Index (maximum)    : 0.8424
+Normalized Mutual Information Index (arithmetic) : 0.8789
+Normalized Mutual Information Index (geometric)  : 0.8797
+Normalized Mutual Information Index (minimum)    : 0.9186
+Asymmetric Wallace Index(1) : 0.9101
+Asymmetric Wallace Index(2) : 0.7104
+
+Mirkin Metric                   : 482.0000
+Van Dongen Metric               : 28.0000
+Variation Of Information Metric : 0.8229
+Normalized Mirkin Metric                   : 0.0368
+Normalized Van Dongen Metric               : 0.1217
+Normalized Variation Of Information Metric : 0.1202
+
+Contingency table (Partition1 x Partition2):
+8	0	0	0	0	0	0	0	0	0
+0	9	0	0	0	0	0	0	0	0
+0	0	11	0	0	0	0	0	0	0
+0	0	0	12	0	0	0	0	0	0
+10	0	0	0	0	0	0	0	0	0
+0	0	0	0	4	0	3	0	0	0
+0	0	0	0	0	13	0	0	0	0
+0	0	0	0	0	0	12	0	0	0
+0	0	0	0	0	0	0	8	0	0
+0	0	0	0	1	0	1	0	0	8
+0	0	0	1	1	2	0	1	0	0
+0	0	0	0	0	0	0	0	9	1

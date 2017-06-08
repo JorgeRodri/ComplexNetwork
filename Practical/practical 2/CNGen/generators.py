@@ -1,25 +1,43 @@
 import random
 import networkx as nx
 import numpy as np
+from functions import truncated_power_law
 
-'''
-class CNgenerator(nx):
+
+def GetDegreeDist(n, DegreeDistribution, val):
     
-    def __init__(self, graphType, prob):
-        self.t=graphType
-        self.p=prob
- pass
- '''
- 
+    if DegreeDistribution=="Poisson":       #
+        v=np.random.poisson(val, n)         #                   #
+    elif DegreeDistribution=="PowerLaw":    #Poner en una funcion
+        d = truncated_power_law(val)        
+        v = d.rvs(size=n)                   #                                #
+    else:                                   #
+        raise "Wrong Degree Distribution."  #
+    if sum(v)%2!=0:                     #
+            v[0]=v[0]+1 
+    return v
+
+def getCMedges(dd,nodes):
+    stublist=[]
+    for n in nodes:
+        for i in range(dd[n-1]):
+            stublist.append(n)
+    random.shuffle(stublist)
+    edges=[]
+    while stublist:
+        n1=stublist.pop()
+        n2=stublist.pop()
+        edges.append((n1,n2))
+    return edges
+    
 def add_barabasi_node(G,node,m):
     i=0
     while i<m:
         degrees=G.degree().values()
         prob=[float(degrees[index])/sum(degrees) for index in range(len(degrees))]
         candidate=np.random.choice(G.nodes(),p=prob)
-        if candidate!=i and (node,candidate) not in G.edges() and (candidate,node) not in G.edges():
-            G.add_edge(node,candidate)
-            i+=1
+        G.add_edge(node,candidate)
+        i+=1
     return G
  
 def create_clique(m):
@@ -53,7 +71,7 @@ def GenER(n,p):
     return G
                 
 def GenWS(n,k,p):
-    G=nx.Graph()
+    G=nx.MultiGraph()
     #creating the ring
     nodes=list(range(1,n+1))
     G.add_nodes_from(nodes)
@@ -73,4 +91,16 @@ def GenBA(n,m):
     nodes=list(range(6,n+1))
     for node in nodes:
         G=add_barabasi_node(G,node,m)
+    return G
+
+def GenCM(n,DegreeDistribution="Poisson", val=2, MultiGraph=True):
+    if MultiGraph: 
+        G=nx.MultiGraph() 
+    else: 
+        G=nx.Graph()
+        
+    nodes=list(range(1,n+1))
+    v=GetDegreeDist(n, DegreeDistribution, val)
+    edges=getCMedges(v,nodes)   
+    G.add_edges_from(edges)
     return G
